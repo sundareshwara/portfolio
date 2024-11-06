@@ -160,7 +160,7 @@ body {
     height: 120px;
     margin-right: 20px;
     border-radius: 50%;
-    position: relative; /* Positioning for pseudo-elements */
+    position: relative; 
 }
 
 .education-details .line::before,
@@ -194,15 +194,15 @@ body {
 .internship-section {
     padding: 40px 20px;
     padding-left: 10%;
-    background-color: #1a1a1a; /* Slightly different background color */
-    color: #e0e0e0; /* Slightly lighter text color */
+    background-color: #1a1a1a; 
+    color: #e0e0e0; 
 }
 
 .internship-section span {
     font-size: 28px;
     margin-bottom: 20px;
     color: #ffffff;
-    background-color: #ff5733; /* Different accent color */
+    background-color: #ff5733; 
     padding-right: 70%;
     padding-left: 5%;
 }
@@ -213,9 +213,9 @@ body {
 }
 
 .internship-details .line {
-    width: 4px; /* Slightly thinner line */
+    width: 4px; 
     background-color: #ffffff;
-    height: 150px; /* Slightly shorter line */
+    height: 150px; 
     margin-right: 20px;
     border-radius: 50%;
     position: relative;
@@ -229,7 +229,7 @@ body {
     transform: translateX(-50%);
     width: 10px; /* Smaller circles */
     height: 10px;
-    background-color: #ff5733; /* Matching accent color */
+    background-color: #ff5733; 
     border-radius: 50%;
 }
 
@@ -331,13 +331,13 @@ body {
     padding: 40px 20px;
     padding-left: 10%;
     color: #ffffff;
-    background-color: #1a1a1a; /* Deep blue background */
+    background-color: #1a1a1a; 
 }
 
 .leadership-section h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #ADEFD1; /* Light teal color */
+    color: #ADEFD1; 
 }
 
 .leadership-item {
@@ -351,7 +351,7 @@ body {
     width: 350px;
     overflow: hidden;
     border-radius: 10px;
-    background-color: #ADEFD1; /* Light teal background */
+    background-color: #ADEFD1; 
     padding: 1%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     
@@ -367,7 +367,7 @@ body {
 }
 
 .leadership-title {
-    background-color: #000; /* Deep blue */
+    background-color: #000;
     color: #ffffff;
     text-align: center;
     padding: 3%;
@@ -380,7 +380,7 @@ body {
     left: 0;
     width: 95%;
     height: 70%;
-    background: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.8); 
     color: white;
     padding: 10px;
     transform: translateX(100%);
@@ -413,13 +413,13 @@ body {
     padding: 40px 20px;
     padding-left: 10%;
     color: #333333;
-    background-color: #000; /* Light gray background */
+    background-color: #000; 
 }
 
 .extracurricular-section h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #FF5722; /* Vibrant orange color */
+    color: #FF5722; 
 }
 
 .extracurricular-item {
@@ -491,14 +491,14 @@ body {
 .youtube-channel-section {
     padding: 40px 20px;
     color: #ffffff;
-    background-color: #1a1a1a; /* Adjust as needed */
+    background-color: #1a1a1a; 
     text-align: center;
 }
 
 .youtube-channel-section h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #fca311; /* Adjust as needed */
+    color: #fca311; 
 }
 
 .youtube-channel-section p {
@@ -517,14 +517,14 @@ body {
     padding: 10px 20px;
     font-size: 22px;
     color: #ffffff;
-    background-color: #fca311; /* Adjust as needed */
+    background-color: #fca311; 
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .channel-button:hover {
-    background-color: #e89a00; /* Adjust as needed */
+    background-color: #e89a00; 
 }
 
 .video-container {
@@ -563,7 +563,7 @@ body {
 .projects-section h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #fca311; /* Accent color */
+    color: #fca311; 
 }
 
 .projects-section p {
@@ -584,7 +584,7 @@ body {
 }
 
 .project-card:hover {
-    transform: translateY(-10px); /* Slight lift on hover */
+    transform: translateY(-10px); 
 }
 
 .project-img {
@@ -622,7 +622,7 @@ body {
 }
 
 .project-link:hover {
-    background-color: #e89a00; /* Darker shade on hover */
+    background-color: #e89a00; 
 }
 
 
@@ -678,7 +678,7 @@ body {
 
 /* Footer Section */
 .footer-section {
-    background-color: #232323; /* Black background */
+    background-color: #232323; 
     padding: 20px 0;
     text-align: center;
     color: white;
@@ -709,13 +709,13 @@ body {
 }
 
 .social-media-links a:hover {
-    color: #fca311; /* Same orange as used in other sections */
+    color: #fca311; 
     
 }
 
 /* Social media icons specific colors */
 .linkedin-icon:hover {
-    color: #fca311; /* Consistent color palette */
+    color: #fca311; 
 }
 
 .leetcode-icon:hover {
@@ -733,8 +733,8 @@ body {
 
 /* General form styling */
 form {
-    width: 100%; /* Use percentage for responsive width */
-    max-width: 500px; /* Maximum width the form can take */
+    width: 100%; 
+    max-width: 500px; 
     margin: 0 auto;
     padding: 20px;
     
